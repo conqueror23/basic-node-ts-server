@@ -1,0 +1,15 @@
+{
+  "extends":"@tsconfig/node18/tsconfig.json",
+  "compilerOptions":{
+   "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "paths":[
+      "@basic-node-ts-server":["./src/*"]
+    ],
+    "resolveJsonModule":true,
+  },
+   "include": ["src/**/*"]
+}
